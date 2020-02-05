@@ -1,8 +1,7 @@
 const PETSHOP = "Petshop DH";
 console.log(`** ${PETSHOP} **`); //Template String
 
-let pets = [
-  {
+let pets = [{
     nome: "Batman",
     tipo: "cão",
     raca: "vira-lata",
@@ -121,7 +120,7 @@ const cortarUnhasPet = pet => {
 
 const atenderPet = (pet, ...servicos) => {
   console.log(`Bem vindo,  ${pet.nome}`);
-  for (let servico of servicos ) {
+  for (let servico of servicos) {
     console.log(servicos[servico])
   }
 
@@ -135,12 +134,12 @@ const atenderPet = (pet, ...servicos) => {
 };
 
 const listarNome = (nome) => {
-    for(let nomes of nome){
-        console.log('Teste 1')
-        if(nome == pets.nome){
-            console.log('Teste Listar Nomes')
-        }
+  for (let nomes of nome) {
+    console.log('Teste 1')
+    if (nome == pets.nome) {
+      console.log('Teste Listar Nomes')
     }
+  }
 
 }
 
