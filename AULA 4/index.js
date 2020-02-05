@@ -119,11 +119,11 @@ const cortarUnhasPet = pet => {
   console.log(`${pet.nome}  cortou as unhas!`);
 };
 
-const atenderPet = (pet, servicos) => {
+const atenderPet = (pet, ...servicos) => {
   console.log(`Bem vindo,  ${pet.nome}`);
   for (let servico of servicos ) {
-      servico(pet)
-   // servicos(servico);
+    servico(pet)
+//  servicos(servico);
   }
 
   const pagar = () => {
