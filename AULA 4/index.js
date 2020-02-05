@@ -122,8 +122,7 @@ const cortarUnhasPet = pet => {
 const atenderPet = (pet, ...servicos) => {
   console.log(`Bem vindo,  ${pet.nome}`);
   for (let servico of servicos ) {
-    servico(pet)
-//  servicos(servico);
+    console.log(servicos[servico])
   }
 
   const pagar = () => {
@@ -135,6 +134,17 @@ const atenderPet = (pet, ...servicos) => {
   console.log("Volte sempre!");
 };
 
+const listarNome = (nome) => {
+    for(let nomes of nome){
+        console.log('Teste 1')
+        if(nome == pets.nome){
+            console.log('Teste Listar Nomes')
+        }
+    }
+
+}
 
 //listarPets();
-atenderPet(pets[0], [cortarUnhasPet, tosarPet, darBanhoPet, darBanhoPet]);
+//atenderPet(pets[0], [cortarUnhasPet, tosarPet, darBanhoPet, darBanhoPet]);
+
+listarNome("Batman")
