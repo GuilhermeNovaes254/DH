@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,40 +8,95 @@ body{
 
 /*header start*/
 
-header{
+header  {
     text-align: center;
-    border:2px solid #555;
+    border: 2px solid #555;
 }
 
-ul{
+.linkbanner {
+    font-weight: 800;
+}
+
+header ul {
     list-style: none;
     padding-left: 0;
 }
 
-li{
+header li {
     display: inline-block;
-    padding: 10px 20px;  
+    padding: 10px 20px;
     /*border: 2px solid black;*/
 }
 
-li a{
+header li a {
     text-decoration: none;
     color: #555;
 }
 
-header h1{
+header h1 {
     text-transform: uppercase;
-  }
+}
 
 /* header finish */
 
 /* Footer start */
 
-footer p{
+footer p {
     text-align: center;
     padding: 10px;
     margin: 0;
 }
-footer{
-    background: #555;
+
+footer {
+    background: #f2f2f2;
 }
+
+/* footer end */
+
+/* banner home */
+
+main#banner {
+    background: url(../img/jane.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 73vh;
+    /*porcentagem nao funciona bem com altura*/
+
+
+}
+
+.frase {
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.citacao {
+    margin-bottom: 40px;
+}
+
+main#about {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main#music{
+    text-align: left;
+}
+#music ul li {
+    text-align: left;
+    padding-left: 0;
+}
+
+#music ul{
+    padding-left: 0;
+}
+
+.video2 li{
+    list-style: none;
+    line-height : 35px;
+}
+
