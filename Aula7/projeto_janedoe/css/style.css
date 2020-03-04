@@ -100,3 +100,14 @@ main#music{
     line-height : 35px;
 }
 
+main#contact{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
