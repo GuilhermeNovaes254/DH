@@ -1,0 +1,13 @@
+<%- include('./partials/header') %>
+
+<main class="container text-center py-5 my-5">
+
+  <!-- Olá usuario, sua mensagem foi recebida e responderemos no email x -->
+  <div class="alert  alert-success" role="alert">
+    Olá <%= nomeNewsletter %>, o seu e-mail foi cadastrado <%= emailNewsletter %>
+  </div>
+
+  <a href="/" class="btn btn-secondary">Voltar</a>
+
+</main>
+<%- include('./partials/footer') %>
